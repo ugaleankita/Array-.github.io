@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+     let name=[10,20,30,40,50,"ankita","radhika","pune",false]
+     document.write(name+"<br>"+"<br>")
+
+     document.write(name[6]+"<br>"+"<br>")
+     document.write(name.length+"<br>"+"<br>")
+        
+     document.write(name[6]="puja")
+     document.write(name+"<br>"+"<br>")
+
+     name.push("yash")
+     document.write(name+"<br>"+"<br>")
+
+     name.pop()
+     document.write(name+"<br>"+"<br>")
+
+     name.shift()
+     document.write(name+"<br>"+"<br>")
+
+     name.unshift("meena")
+     document.write(name+"<br>"+"<br>")
+
+     let arr1=name.slice(1,6)
+     document.write(arr1+"<br>"+"<br>")
+    
+    
+
+     let arr2=name.slice(4,10)
+     document.write(arr2+"<br>"+"<br>")
+
+     let name2=["radha","rupa",90,60,true]
+     document.write(name2+"<br>"+"<br>")
+
+     let newarray=name.concat(name2)
+     document.write(newarray+"<br>"+"<br>")
+
+     let arr4=name.splice(1,6)
+     document.write(arr4+"<br>"+"<br>")
+
+     let arr5=name.splice(1,0,"felix")
+     document.write(name+"<br>"+"<br>")
+
+
+
+
+
+
+
+
+
+   </script>
+</body>
+</html>
